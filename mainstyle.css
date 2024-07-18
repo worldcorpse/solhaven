@@ -1,0 +1,462 @@
+@media only screen and (max-width: 1800px)
+{
+    @font-face {
+        font-family: 'Fell';
+        src: url('font\FeFCrm2.tff');
+    }
+
+    @font-face {
+        font-family: 'Southland';
+        src: url('font\Southland.tff');
+    }
+
+    @font-face {
+        font-family: 'bebas';
+        src: url('font\Bebas-Regular.tff');
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #ffc89b;
+
+        background-image: url("images/sandbackground.jpg");
+        
+        background-position: 0 -800px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .mySlides {
+        display: none;
+
+    }
+
+    img {
+        vertical-align: none;
+        height: 500px;
+        width: 500px;
+        object-position: 0 0;
+    }
+
+    .id1 { /* PHOTO 1 OF THE SLIDESHOW */
+        object-fit: cover;
+        object-position: 20% 0;
+    }
+
+    .id2 { /* PHOTO 2 OF THE SLIDESHOW */
+        object-fit: cover;
+        object-position: 20% 0;
+    }
+
+    .id3 { /* PHOTO 3 OF THE SLIDESHOW */
+        object-fit: cover;
+        object-position: 20% 0;
+    }
+
+
+    .img {
+        height: 500px;
+        width: 500px;
+    }
+
+    .learnmore {
+        color: #1c1850;
+        text-decoration: none;
+        opacity: .7;
+    }
+
+    .learnmore:hover {
+        opacity: 1;
+    }
+
+    .slideshow-container{
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+
+        background-color: #000000;
+    }
+
+    .text {
+        color: #000000;
+        font-size: 15px;
+        padding: 6px 50px;
+        position: absolute;
+        margin: 0;
+        top: 50%;
+        width: 60%;
+        left: 50%;
+        bottom: 213px;
+        -ms-transform: translate(-50%, 50%);
+        transform: translate(-50%, 410%);
+        
+        text-align: center;
+        background-color: #ffffff;
+        opacity: 0.7;
+        display: inline-block;
+        text-decoration: none;
+        font-family: "Bebas";
+    }
+
+    .numbertext {
+        color: #000000;
+        font-size: 15px;
+        font-family: bebas;
+        background-color: #ffffff;
+        opacity: 0.7;
+
+
+        padding: 15px 32px;
+        position: absolute;
+        top: 0;
+
+    }
+
+    .dot {
+        height: 7px;
+        width: 7px;
+        margin: 0 5px;
+        transform: translate(-50%, -800%);
+        background-color: #000000;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #c0c0c0;
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    @media only screen and (max-width: 300px) {
+        .text {
+        
+        font-size: 11px;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        bottom: 210px;
+        -ms-transform: translate(-50%, 50%);
+        transform: translate(-50%, 500%);
+    }
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #161616;
+        opacity: 0.95;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+        font-family: "Bebas";
+    }
+
+    .sidenav a, .dropdown-btn  {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #686767;
+        display: block;
+        border: none;
+        background: none;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover{
+        color:#f1f1f1;
+
+    }
+
+    .dropdown-btn:hover{
+        color:#f1f1f1;
+
+    }
+
+    .dropdown-container {
+        display: none;
+        background-color: #161616;
+        padding-left: 8px;
+    }
+
+    .fa-caret-down{
+        float: right;
+        padding-left: 120px;
+        
+    }
+
+    .sidenav .closebtn{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px){
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        font-family: "Southland";
+        text-align: center;
+        opacity: 0.9;
+
+    }
+
+    .menuicon {
+        display: inline;
+        float: left;
+        padding: 10px 10px;
+    }
+
+    .name a{
+        font-size: 45px;
+        text-decoration: none;
+        
+    }
+
+    hr.rounded {
+        border-top: 3px solid #5a4435;
+        border-radius: 1px;
+        margin-left: 110px;
+        margin-right: 110px;
+        opacity: 0.9;
+    }
+
+    .text2 {
+        text-align: center;
+        font-family: Bebas;
+        color: #000000;
+        opacity: .5;
+    }
+
+    .text2 h1{
+        text-align: center;
+        font-family: Bebas;
+        color: #ff9912;    
+    }
+
+    .text2 h2{
+        text-align: center;
+        font-family: Bebas;
+        color: #ff9912;    
+    }
+
+    .bottomlink {
+        opacity: .8;
+    }
+
+    .bottomlink:hover {
+        opacity: 1;
+    }
+
+    .logoshop {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+
+
+        opacity: 0.4;
+        transition: 0.3s;
+
+    }
+
+    .logoshop:hover{
+        
+        opacity: 1;
+
+    }
+
+    .links {
+
+        overflow: hidden;
+        
+        text-align: center;
+        padding: 6px 3px;
+        
+    }
+
+    .links a {
+
+        margin-top: 35px;
+        text-align: center;
+        padding: 3px 6px;
+        text-decoration: none;
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .name {
+        text-align: center;
+        margin-right: 35px;
+        top:40px;
+    }
+
+    .logoicon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -60px;
+        margin-top: -35px;
+        
+        width: 40%;
+        height: 40%;
+    }
+
+    .secondbackground{
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        border-radius: 0px 0px 45px 45px;
+        height: 800px;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+ 
+     }
+
+    .kingmontlist {
+        display: none;
+    }
+
+    .locustlist {
+        display: none;
+    }
+
+    /* LOCATIONS PAGE */
+
+    .LocationsText h1{
+        font-family: "Bebas";
+        text-align: center;
+    }
+
+    .LocationsText h3{
+        font-family: "Bebas";
+        text-align: center;
+    }
+
+    .secondbackground2{
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        border-radius: 0px 0px 45px 45px;
+        height: 1500px;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+ 
+     }
+
+     iframe {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+     }
+
+     .LocationsText {
+        font-family: "Bebas";
+        text-align: center;
+        opacity: .7;
+     }
+
+     /* CLUB TAN PAGE */
+
+     .leveltitle {
+        display: block;
+        font-family: "Bebas";
+        font-size: 35px;
+        text-align: center;
+        opacity: .8;
+        
+     }
+     .levelimage {
+        opacity: 1;
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+
+     }
+     .leveltext {
+        font-family: "Bebas";
+        display: block;
+        font-size: 20px;
+        margin-left: -20px;
+        margin-bottom: 20px;
+        opacity: .6;
+     }
+
+     .secondbackgroundclub{
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        border-radius: 0px 0px 45px 45px;
+        height: 2000px;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+ 
+     }
+
+
+    .demo {
+        width: 100%;
+        background-color: #864c2573;
+        box-shadow: 0 0 5px 5px #332c2827;
+    }
+
+    .demo1 {
+        width: 100%;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.425);
+    }     
+
+}

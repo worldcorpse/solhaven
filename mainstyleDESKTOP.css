@@ -1,0 +1,537 @@
+@media only screen and (min-width: 1800px)
+{
+    @font-face {
+        font-family: 'Fell';
+        src: url('font\FeFCrm2.tff');
+    }
+
+    @font-face {
+        font-family: 'Southland';
+        src: url('font\Southland.tff');
+    }
+
+    @font-face {
+        font-family: 'bebas';
+        src: url('font\Bebas-Regular.tff');
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url("images/sandbackground.jpg");
+        
+        background-position: 0 -800px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .bg-img {
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+    }
+
+    .mySlides {
+        display: none;
+
+    }
+
+    img {
+        vertical-align: none;
+        height: 500px;
+        width: 500px;
+        object-position: 0 0;
+    }
+
+    .id1 {
+        object-fit: cover;
+        object-position: 20% 55%;
+    }
+
+    .id2 {
+        object-fit: cover;
+        object-position: 20% 0;
+    }
+
+    .id3 {
+        object-fit: cover;
+        object-position: 20% 20%;
+    }
+
+
+    .img {
+        height: 500px;
+        width: 500px;
+    }
+
+
+
+    .slideshow-container{
+        max-width: 2000px;
+        position: relative;
+        margin: auto;
+        box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.3);
+        background-color: #000000;
+    }
+
+    .text {
+        color: #000000;
+        font-size: 15px;
+        padding: 6px 60px;
+        position: absolute;
+        margin: 0px 50px 0 0px;
+        top: 50%;
+        width: 300px;
+        left: 50%;
+        bottom: 213px;
+        -ms-transform: translate(-50%, 50%);
+        transform: translate(-50%, 410%);
+        
+        text-align: center;
+        background-color: #ffffff;
+        opacity: 0.7;
+        display: inline-block;
+        text-decoration: none;
+        font-family: "Bebas";
+    }
+
+    .numbertext {
+        color: #000000;
+        font-size: 15px;
+        font-family: bebas;
+        background-color: #ffffff;
+        opacity: 0.7;
+
+
+        padding: 15px 32px;
+        position: absolute;
+        top: 0;
+
+    }
+
+    .dot {
+        height: 7px;
+        width: 7px;
+        margin: 0 5px;
+        transform: translate(-50%, -800%);
+        background-color: #000000;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #ffffff;
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    @media only screen and (max-width: 300px) {
+        .text {
+        
+        font-size: 11px;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        bottom: 210px;
+        -ms-transform: translate(-50%, 50%);
+        transform: translate(-50%, 500%);
+    }
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #161616;
+        opacity: 0.95;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+        font-family: "Bebas";
+    }
+
+    .sidenav a, .dropdown-btn {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #686767;
+        display: block;
+        border: none;
+        background: none;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover{
+        color:#f1f1f1;
+
+    }
+
+    .dropdown-btn:hover{
+        color:#f1f1f1;
+
+    }
+
+    .dropdown-container {
+        display: none;
+        background-color: #161616;
+        padding-left: 8px;
+    }
+
+    .fa-caret-down{
+        float: right;
+        padding-left: 120px;
+        
+    }
+
+    .sidenav .closebtn{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px){
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+
+    }
+
+    ul {
+        list-style-type: none;
+        text-decoration: none;
+        margin: -20px 0 0px;
+        padding: 0;
+        overflow: hidden;
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        opacity: 0.9;
+        font-family: "Southland";
+        text-align: center;
+
+    }
+    
+    .menuicon{
+        display: block;
+        padding: 40px 40px;
+        float: left;
+    }
+
+    .name a{
+        font-size: 45px;
+        text-decoration: none;
+        
+    }
+
+    hr.rounded {
+        border-top: 3px solid #5a4435;
+        border-radius: 1px;
+        position: relative;
+        z-index: 1000 !important;
+        margin-left: 310px;
+        margin-right: 310px;
+        opacity: .7;
+    }
+
+    .text2 {
+        text-align: center;
+        font-size: 22px;
+        font-family: Bebas;
+        color: #000000;
+        opacity: .5;
+    }
+
+    .text2 h1{
+        text-align: center;
+        font-family: Bebas;
+        color: #ff9912;    
+    }
+
+    .text2 h2{
+        text-align: center;
+        font-family: Bebas;
+        color: #ff9912;    
+    }
+
+    .bottomlink {
+        opacity: .8;
+    }
+
+    .bottomlink:hover {
+        opacity: 1;
+    }
+
+    .logoshop {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+
+
+        opacity: 0.4;
+        transition: 0.3s;
+
+    }
+
+    .logoshop:hover{
+        
+        opacity: 1;
+
+    }
+
+    .links {
+
+        overflow: hidden;
+        
+        text-align: center;
+        padding: 6px 3px;
+        
+    }
+
+    .links a {
+
+        margin-top: 35px;
+        text-align: center;
+        padding: 3px 6px;
+        text-decoration: none;
+    }
+
+    .learnmore {
+        color: #1c1850;
+        text-decoration: none;
+        opacity: .7;
+    }
+
+    .learnmore:hover {
+        opacity: 1;
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .name {
+        text-align: center;
+        display: inline;
+    }
+
+    .logoicon {   
+        width: 11%;
+        height: 11%;
+    }
+
+    .secondbackground{
+       background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+       border-radius: 0px 0px 45px 45px;
+       height: 800px;
+       margin-left: 500px;
+       margin-right: 500px;
+
+       box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+
+    }
+
+    .kingmontlist {
+        margin-left: -80px;
+        display: inline;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: "Bebas";
+        opacity: 0.5;
+    }
+
+    .locustlist {
+        display: inline;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: "Bebas";
+        opacity: 0.5;
+    }
+
+    .toplink:hover {
+        opacity: 0.5;
+    }
+
+    .locustlist:hover {
+        opacity: 0.5;
+    }
+
+
+    /* LOCATIONS PAGE */
+
+    .LocationsText h1{
+        font-family: "Bebas";
+        text-align: center;
+    }
+
+    .LocationsText h3{
+        font-family: "Bebas";
+        text-align: center;
+    }
+
+    .secondbackground2{
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        border-radius: 0px 0px 45px 45px;
+        height: 1500px;
+        margin-left: 500px;
+        margin-right: 500px;
+ 
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+ 
+     }
+
+     .maps {
+        width: 500px;
+        height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.425);
+     }
+
+     .LocationsText {
+        font-family: "Bebas";
+        text-align: center;
+        opacity: .7;
+     }
+
+     /* CLUB TAN PAGE */
+
+     .leveltitle {
+        margin-left: 60px;
+        margin-top: 10px;
+        display: inline-block;
+        font-family: "Bebas";
+        font-size: 35px;
+        text-align: left;
+        opacity: .8;
+        
+     }
+     .levelimage {
+        opacity: 1;
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+
+     }
+     .leveltext {
+        font-family: "Bebas";
+        display: inline-block;
+        font-size: 20px;
+        margin-left: -600px;
+        margin-bottom: 20px;
+        opacity: .6;
+     }
+
+     .secondbackgroundclub {
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        border-radius: 0px 0px 45px 45px;
+        height: 2100px;
+        margin-left: 500px;
+        margin-right: 500px;
+ 
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+     }
+
+    .demo {
+        width: 100%;
+        background-color: #864c2573;
+        box-shadow: 0 0 5px 5px #332c2827;
+    }
+
+    .demo1 {
+        width: 100%;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.425);
+    }
+
+    .bottomtextlevel {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: #725f49;
+        width: auto;
+        height: auto;
+        margin-left: 250px;
+        margin-right: 250px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-family: "bebas";
+        font-size: 22px;
+    }
+
+    .levellink a{
+        text-decoration: none;
+    }
+    
+    .levellink a:visited{
+        text-decoration: none;
+    }
+
+    .levellink a:link{
+        text-decoration: none;
+    }
+
+    .levellink a:hover{
+        text-decoration: none;
+    }
+
+    .levellink a:active{
+        text-decoration: none;
+    }
+
+    /*SUNLESS TANNING PAGE*/
+
+    .sunlessvid {
+        width: 850px;
+        height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .secondbackgroundsunless {
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        border-radius: 0px 0px 45px 45px;
+        height: 2100px;
+        margin-left: 500px;
+        margin-right: 500px;
+ 
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+     }
+
+
+
+
+}
