@@ -5,7 +5,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Sol Haven</title>
+    <title>Beds - Sol Haven</title>
     
     <link rel="shortcut icon" type="image/png" href="images/icon.png">
 
@@ -22,7 +22,7 @@
     <script type="text/javascript" src="slider.js"></script>
 </head>
 
-<body>
+<body class="body4">
 
     <div>
         
@@ -45,7 +45,7 @@
             </li>
             <li class="locustlist"> <!-- LOCUST AVE LOCATION + NUMBER -->
                 <span class="toplink"><a href="https://www.google.com/maps/place/The+Sol+Haven/@39.4825958,-80.1703898,16z/data=!4m6!3m5!1s0x884a7c10103bf8a3:0x28820cdb5240de60!8m2!3d39.4814076!4d-80.1636272!16s%2Fg%2F1v26mt57?entry=ttu"">Locust Avenue</a></span> |
-                <span class="toplink"><a href="tel:+3043337869">304.366.7869</a></span>
+                <span class="toplink"><a href="tel:+3043337869">304.333.7869</a></span>
             </li>
         </ul>
 
@@ -74,6 +74,7 @@
             for (i = 0; i < dropdown.length; i++) {
             dropdown[i].addEventListener("click", function() {
                 this.classList.toggle("active");
+
                 var dropdownContent = this.nextElementSibling;
                 if (dropdownContent.style.display === "block") {
                 dropdownContent.style.display = "none";
@@ -82,12 +83,116 @@
                 }
             });
             }
+
     </script>
 
-    <div class="secondbackground2">
+    <div class="secondbackgroundsunbed">
+        <div class="bar">
+            <button class="baritem tabact w3-brown" onclick="openBed(event, 'Level1')">Level 1 Bed</button>
+            <button class="baritem tabact" onclick="openBed(event, 'Level2')">Level 2 Bed</button>
+            <button class="baritem tabact" onclick="openBed(event, 'Level3')">Level 3 Bed</button>
+            <button class="baritem tabact" onclick="openBed(event, 'Level4')">Level 4 Bed</button>
+            <button class="baritem tabact" onclick="openBed(event, 'Level5')">Level 5 Bed</button>
 
-        <div class="leveltitle">        
-            <h1>Level 1 Sunbed</h1>
+        </div>
+        <div class="sunbedsecond">
+            <br>
+
+            <div id="Level1" class="bed">
+                <br>
+                <br>
+                <h2>The Ovation 3400</h2>
+                <hr class="rounded">
+                <img class="bedimage" src="images/level1bed.jpg">
+                <hr class="rounded">
+                <p>The Ovation 3400 series is one of the best selling commercial tanning beds of our time!</p>
+                <p>No wonder...striking good looks, and designed for maximum comfort. 34 100 watt lamps gives this bed</p>
+                <p>a 15 minute maximum exposure time.</p>
+            </div>
+            
+            <div id="Level2" class="bed" style="display:none">
+                <br>
+                <br>
+                <h2>2M Stand Up</h2>
+                <hr class="rounded">
+                <img class="bedimage2" src="images/level2.jpg">
+                <hr class="rounded">
+                <p>America’s favorite stand up that our customers just love.</p>
+                <p>The 2M Stand Up lamps produce an excellent, all over tan in a 9 minute session.</p>
+            </div>
+            
+            <div id="Level3" class="bed" style="display:none">
+                <br>
+                <br>
+                <h2>The Ovation 5400</h2>
+                <hr class="rounded">
+                <img class="bedimage3" src="images/level3.jpg">
+                <hr class="rounded">
+                <p>The Ovation 5400 series is designed for comfort! 12 Minute Max, 120/160 Watt Lamps,</p>
+                <p>3-400 Watt Facial Lamps, and a stereo!</p>
+            </div>
+
+            <div id="Level4" class="bed" style="display:none">
+                <br>
+                <br>
+                <h2>Ovation 6400</h2>
+                <hr class="rounded">
+                <img class="bedimage4" src="images/level4.jpg">
+                <hr class="rounded">
+                <p>The Ovation 6400 series includes 10 Minute Max, 160 Watt Lamps, 4-500 Watt Facials,</p> 
+                <p>a shoulder tanner and a stereo!</p>
+            </div>
+
+            <div id="Level5" class="bed" style="display:none">
+                <br>
+                <br>
+                <h2>Acclaim High Pressure</h2>
+                <hr class="rounded">
+                <img class="bedimage5" src="images/level5.jpg">
+                <hr class="rounded">
+                <p>Create a new level of tan with our Acclaim High Pressure unit. Bold, stylish, elegant.</p>
+                <p>Wide body styling with 360° tanning. Features include: Hinged acrylic, state of the art timer,</p>
+                <p>integrated stereo system, air conditioning, attractive design and backlighting. 32-600w lamps,</p>
+                <p>3-1000w facials, 12-Minute session.</p>
+            </div>
+
+            <hr class="rounded">
+            
+        </div>
+
+          <script>
+
+            function openBed(evt, Bedname) {
+                var i, x, tabacts;
+                x = document.getElementsByClassName("bed");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                tabacts = document.getElementsByClassName("tabact");
+                for (i = 0; i < x.length; i++) {
+                    tabacts[i].className = tabacts[i].className.replace(" w3-brown", "");
+                }
+                document.getElementById(Bedname).style.display = "block";
+                evt.currentTarget.className += " w3-brown";
+            }
+          </script>
+
+        <br>
+
+        <div class="teethtitle">
+            <br>
+            <h2>Our other socials!</h2>
+    
+            <hr class="rounded">
+        </div>
+    
+        <div class="links">
+            <a href="https://the-sol-haven.myshopify.com/"> 
+            <img class="logoshop" src="nav-icons/shopify1.png">
+            <a href="https://www.instagram.com/thesolhavenllc/">
+            <img class="logoshop" src="nav-icons/instagram1.png">
+            <a href="https://www.facebook.com/thesolhaven">
+            <img class="logoshop" src="nav-icons/facebook1.png">
         </div>
     </div>
 </body>

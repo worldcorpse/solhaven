@@ -15,17 +15,50 @@
         src: url('font\Bebas-Regular.tff');
     }
 
+    @font-face {
+        font-family: 'Mont';
+        src: url('font/Mont-ExtraLightDEMO.otf');
+    }
+
+    @font-face {
+        font-family: 'Mont2';
+        src: url('font/Mont-HeavyDEMO.otf');
+    }
+
+
     * {
         box-sizing: border-box;
     }
 
     body {
         font-family: 'Courier New', Courier, monospace;
-        background-color: #ffc89b;
-
         background-image: url("images/sandbackground.jpg");
         
         background-position: 0 -800px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .body2 {
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url("images/sandbackground2.jpg");
+        
+        background-position: -800px -2900px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .body3 {
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url("images/sandbackground3.jpg");
+        
+        background-position: -800px -1600px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .body4 {
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url("images/sandbackground4.jpg");
+        
+        background-position: -800px -1500px;
         background-color: rgb(255, 255, 255);
     }
 
@@ -253,6 +286,7 @@
     .text2 {
         text-align: center;
         font-family: Bebas;
+        font-size: 20px;
         color: #000000;
         opacity: .5;
     }
@@ -352,7 +386,7 @@
     .secondbackground{
         background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
         border-radius: 0px 0px 45px 45px;
-        height: 800px;
+        height: 1000px;
         margin-left: 10px;
         margin-right: 10px;
  
@@ -431,7 +465,7 @@
         font-family: "Bebas";
         display: block;
         font-size: 20px;
-        margin-left: -20px;
+        margin-left: -80px;
         margin-bottom: 20px;
         opacity: .6;
      }
@@ -439,7 +473,7 @@
      .secondbackgroundclub{
         background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
         border-radius: 0px 0px 45px 45px;
-        height: 2000px;
+        height: 2700px;
         margin-left: 10px;
         margin-right: 10px;
  
@@ -448,7 +482,7 @@
      }
 
 
-    .demo {
+     .demo {
         width: 100%;
         background-color: #864c2573;
         box-shadow: 0 0 5px 5px #332c2827;
@@ -457,6 +491,295 @@
     .demo1 {
         width: 100%;
         box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.425);
-    }     
+    }
+
+    .bottomtextlevel {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: #725f49;
+        width: auto;
+        height: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-family: "bebas";
+        font-size: 22px;
+    }
+
+    .levellink a{
+        text-decoration: none;
+    }
+    
+    .levellink a:visited{
+        text-decoration: none;
+    }
+
+    .levellink a:link{
+        text-decoration: none;
+    }
+
+    .levellink a:hover{
+        text-decoration: none;
+    }
+
+    .levellink a:active{
+        text-decoration: none;
+    }   
+
+    /*SUNLESS TANNING PAGE*/
+
+    .sunlessvid {
+        width: 100%;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .textsunless {
+        font-family: "bebas";
+    }
+
+    .secondbackgroundsunless {
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        border-radius: 0px 0px 45px 45px;
+        height: 2100px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+     }
+
+    .puratitle h1{
+        text-align: center;
+        font-family: "Bebas";
+    }
+
+    .collapsible {
+        background-color: #5a4435;
+        font-family: "Mont2";
+        color: #ffffff;
+        cursor: pointer;
+        padding: 18px;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .collapsible:hover {
+        background-color: #686767;
+    }
+
+    .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .collapsible.active:after {
+        content: "\2212";
+    }
+
+    .content {
+        padding: 0 18px;
+        font-family: "Mont2";
+        font-size: 19px;
+        max-height: 0;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #bba285;
+    }
+
+    /*TEETH WHITENING PAGE*/
+
+    .teethtitle h1{
+        text-align: center;
+        font-family: "Bebas";
+    }
+
+    .teethtitle h2{
+        text-align: center;
+        font-family: "Bebas";
+    }
+
+
+    .teethimage {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        object-fit: cover;
+        object-position: 10% 20%;
+    }
+
+    .secondbackgroundteeth {
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        border-radius: 0px 0px 45px 45px;
+        height: 1800px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+     }
+
+    /*SUNBED PAGE*/
+
+    .secondbackgroundsunbed {
+        background-image: linear-gradient(to bottom, rgb(247, 218, 186), rgb(173, 155, 122));
+        border-radius: 0px 0px 45px 45px;
+        height: 1200px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+     }
+
+    .leveltitles h1{
+        text-align: center;
+        font-family: "Bebas";
+
+    }
+
+    .bedimage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 25%;
+    }
+
+    .bedimage2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bedimage3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 40%;
+    }
+
+    .bedimage4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 30%;
+    }
+
+    .bedimage5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+
+    .baritem {
+        background-color: #493b2d;
+        color: white;
+        font-size: 27px;
+        border: none;
+        text-decoration: none;
+        font-family: "Bebas";
+        display: block;
+        width: 20%;
+        float: left;
+    }
+
+    .bed h2{
+        text-align: center;
+        font-family: "Mont2";
+    }
+
+    .bed p{
+        text-align: center;
+        font-family: "Bebas";
+        font-size: 21px;
+    }
+
+
+    .baritem:hover {
+        background-color: #3d3121;
+    }
+
+    .sunbedsecond {
+        background-image: linear-gradient(to bottom, rgb(233, 190, 141), rgb(187, 164, 130));
+        box-shadow: 2px 20px 20px rgb(187, 164, 130);
+    }
+
+    /*ABOUT US PAGE*/
+
+    .abouttitle h1{
+        text-align: center;
+        font-family: "Bebas";
+
+    }
+
+    .sisterimage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    .secondbackgroundabout{
+        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        border-radius: 0px 0px 45px 45px;
+        height: 1300px;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+ 
+     }
+
+
+    /*CONTACT PAGE*/
+
+
+    .contacttitle h1{
+        text-align: center;
+        font-family: "Bebas";
+
+    }
+
+    .contacttitle2 h1{
+        text-align: left;
+        margin-left: 30px;
+        font-family: "Bebas";
+
+    }
+
+
+    .contacttext {
+        font-size: 22px;
+        opacity: 0.7;
+        text-align: left;
+        margin-left: 30px;
+        font-family: "Bebas";
+
+    }
 
 }
