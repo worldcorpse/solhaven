@@ -30,25 +30,26 @@
         box-sizing: border-box;
     }
 
+
     body {
         font-family: 'Courier New', Courier, monospace;
-        background-image: url("images/sandbackground.jpg");
+        background-image: url("images/slip2.png");
         
-        background-position: 0 -800px;
+        background-position: -1800px -900px;
         background-color: rgb(255, 255, 255);
     }
 
     .body2 {
         font-family: 'Courier New', Courier, monospace;
-        background-image: url("images/sandbackground2.jpg");
+        background-image: url("images/slip.jpg");
         
-        background-position: -800px -2900px;
+        background-position: -800px -1200px;
         background-color: rgb(255, 255, 255);
     }
 
     .body3 {
         font-family: 'Courier New', Courier, monospace;
-        background-image: url("images/sandbackground3.jpg");
+        background-image: url("images/slip3.jpg");
         
         background-position: -800px -1600px;
         background-color: rgb(255, 255, 255);
@@ -56,9 +57,9 @@
 
     .body4 {
         font-family: 'Courier New', Courier, monospace;
-        background-image: url("images/sandbackground4.jpg");
+        background-image: url("images/slip5.jpg");
         
-        background-position: -800px -1500px;
+        background-position: -1800px -200px;
         background-color: rgb(255, 255, 255);
     }
 
@@ -256,7 +257,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(238, 180, 105, 0.8), rgb(209, 146, 52, 0.8));
         font-family: "Southland";
         text-align: center;
         opacity: 0.9;
@@ -287,20 +288,22 @@
         text-align: center;
         font-family: Bebas;
         font-size: 20px;
-        color: #000000;
-        opacity: .5;
+        color: white;
+        opacity: .9;
     }
 
     .text2 h1{
         text-align: center;
         font-family: Bebas;
-        color: #ff9912;    
+        color: #ff9912; 
+        text-shadow: 1px 1px 3px rgb(0, 0, 0);    
     }
 
     .text2 h2{
         text-align: center;
         font-family: Bebas;
-        color: #ff9912;    
+        color: #ff9912;
+        text-shadow: 1px 1px 3px rgb(0, 0, 0);     
     }
 
     .bottomlink {
@@ -313,8 +316,8 @@
 
     .logoshop {
         display: inline-block;
-        width: 25px;
-        height: 25px;
+        width: 35px;
+        height: 35px;
         text-align: center;
 
 
@@ -335,6 +338,7 @@
         
         text-align: center;
         padding: 6px 3px;
+
         
     }
 
@@ -344,6 +348,12 @@
         text-align: center;
         padding: 3px 6px;
         text-decoration: none;
+    }
+
+    .learnmore {
+        color: #ffffff;
+        text-decoration: none;
+        opacity: 1;
     }
 
     .prev, .next {
@@ -359,6 +369,7 @@
         border-radius: 0 3px 3px 0;
         user-select: none;
         -webkit-user-select: none;
+        background-color: #e4a84f;
     }
 
     .next {
@@ -384,9 +395,9 @@
     }
 
     .secondbackground{
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
-        height: 1000px;
+        height: 1050px;
         margin-left: 10px;
         margin-right: 10px;
  
@@ -415,7 +426,7 @@
     }
 
     .secondbackground2{
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 1500px;
         margin-left: 10px;
@@ -439,6 +450,7 @@
      .LocationsText {
         font-family: "Bebas";
         text-align: center;
+        font-size: 22px;
         opacity: .7;
      }
 
@@ -447,6 +459,8 @@
      .leveltitle {
         display: block;
         font-family: "Bebas";
+        color: rgba(255, 255, 255, 1);
+        text-shadow: 1px 1px 3px rgb(0, 0, 0);
         font-size: 35px;
         text-align: center;
         opacity: .8;
@@ -464,16 +478,17 @@
      .leveltext {
         font-family: "Bebas";
         display: block;
+        color: #ffffff;
         font-size: 20px;
         margin-left: -80px;
         margin-bottom: 20px;
-        opacity: .6;
+        opacity: 1;
      }
 
      .secondbackgroundclub{
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
-        height: 2700px;
+        height: 2600px;
         margin-left: 10px;
         margin-right: 10px;
  
@@ -484,7 +499,7 @@
 
      .demo {
         width: 100%;
-        background-color: #864c2573;
+        background-image: linear-gradient(to bottom right, rgba(187, 155, 95, 0.9), rgba(128, 99, 74, 0.9));
         box-shadow: 0 0 5px 5px #332c2827;
     }
 
@@ -542,7 +557,7 @@
     }
 
     .secondbackgroundsunless {
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 2100px;
         margin-top: 0px;
@@ -625,24 +640,26 @@
     }
 
     .secondbackgroundteeth {
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 1800px;
         margin-top: 0px;
         margin-left: 10px;
         margin-right: 10px;
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
  
      }
 
     /*SUNBED PAGE*/
 
     .secondbackgroundsunbed {
-        background-image: linear-gradient(to bottom, rgb(247, 218, 186), rgb(173, 155, 122));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 1200px;
         margin-top: 0px;
         margin-left: 10px;
         margin-right: 10px;
+        
  
      }
 
@@ -707,14 +724,18 @@
     }
 
     .bed h2{
+        font-size: 32px;
+        color: white;
         text-align: center;
-        font-family: "Mont2";
+        font-family: "Bebas";
+        margin-top: 30px;
     }
 
     .bed p{
         text-align: center;
         font-family: "Bebas";
         font-size: 21px;
+        color: white;
     }
 
 
@@ -723,8 +744,8 @@
     }
 
     .sunbedsecond {
-        background-image: linear-gradient(to bottom, rgb(233, 190, 141), rgb(187, 164, 130));
-        box-shadow: 2px 20px 20px rgb(187, 164, 130);
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
+        box-shadow: 2px 20px 20px rgb(238, 174, 122, 0.9);
     }
 
     /*ABOUT US PAGE*/
@@ -745,7 +766,7 @@
     }
 
     .secondbackgroundabout{
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 1300px;
         margin-left: 10px;

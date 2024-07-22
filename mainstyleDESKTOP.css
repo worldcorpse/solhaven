@@ -32,23 +32,23 @@
 
     body {
         font-family: 'Courier New', Courier, monospace;
-        background-image: url("images/sandbackground.jpg");
+        background-image: url("images/slip2.png");
         
-        background-position: 0 -800px;
+        background-position: -1800px -900px;
         background-color: rgb(255, 255, 255);
     }
 
     .body2 {
         font-family: 'Courier New', Courier, monospace;
-        background-image: url("images/sandbackground2.jpg");
+        background-image: url("images/slip.jpg");
         
-        background-position: -800px -2900px;
+        background-position: -800px -1200px;
         background-color: rgb(255, 255, 255);
     }
 
     .body3 {
         font-family: 'Courier New', Courier, monospace;
-        background-image: url("images/sandbackground3.jpg");
+        background-image: url("images/slip3.jpg");
         
         background-position: -800px -1600px;
         background-color: rgb(255, 255, 255);
@@ -56,9 +56,9 @@
 
     .body4 {
         font-family: 'Courier New', Courier, monospace;
-        background-image: url("images/sandbackground4.jpg");
+        background-image: url("images/slip5.jpg");
         
-        background-position: -800px -1500px;
+        background-position: -1800px -200px;
         background-color: rgb(255, 255, 255);
     }
 
@@ -254,8 +254,7 @@
         margin: -20px 0 0px;
         padding: 0;
         overflow: hidden;
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
-        opacity: 0.9;
+        background-image: linear-gradient(to bottom right, rgb(238, 180, 105, 0.8), rgb(209, 146, 52, 0.8));
         font-family: "Southland";
         text-align: center;
 
@@ -287,23 +286,23 @@
         text-align: center;
         font-size: 22px;
         font-family: Bebas;
-        color: #000000;
-        opacity: .5;
+        color: #ffffff;
+        opacity: .9;
     }
 
     .text2 h1{
         text-align: center;
         font-family: Bebas;
-        color: #ff810c;
+        color: #ff8913;
         font-size: 45px;
-        text-shadow: 1px 2px 3px rgb(0, 0, 0);    
+        text-shadow: 1px 1px 3px rgb(0, 0, 0);    
     }
 
     .text2 h2{
         text-align: center;
         font-family: Bebas;
-        color: #ff9912;
-        text-shadow: 1px 2px 3px rgb(0, 0, 0);    
+        color: #ff8913;
+        text-shadow: 1px 1px 3px rgb(0, 0, 0);    
     }
 
     .bottomlink {
@@ -350,9 +349,9 @@
     }
 
     .learnmore {
-        color: #1c1850;
+        color: #ffffff;
         text-decoration: none;
-        opacity: .7;
+        opacity: .9;
     }
 
     .learnmore:hover {
@@ -372,6 +371,7 @@
         border-radius: 0 3px 3px 0;
         user-select: none;
         -webkit-user-select: none;
+        background-color: #e4a84f;
     }
 
     .next {
@@ -387,34 +387,37 @@
     .logoicon {   
         width: 11%;
         height: 11%;
+        margin-top: 20px;
     }
 
     .secondbackground{
-       background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+       background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
        border-radius: 0px 0px 45px 45px;
        height: 1100px;
        margin-left: 500px;
        margin-right: 500px;
 
-       box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
+       box-shadow: 0 0 15px 15px rgba(124, 80, 43, 0.39) inset;
 
     }
 
     .kingmontlist {
         margin-left: -80px;
         display: inline;
+        color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 25px;
         font-family: "Bebas";
-        opacity: 0.5;
+        opacity: 1;
     }
 
     .locustlist {
         display: inline;
+        color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 25px;
         font-family: "Bebas";
-        opacity: 0.5;
+        opacity: 1;
     }
 
     .toplink:hover {
@@ -439,7 +442,7 @@
     }
 
     .secondbackground2{
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 1600px;
         margin-left: 500px;
@@ -461,6 +464,7 @@
      .LocationsText {
         font-family: "Bebas";
         text-align: center;
+        font-size: 24px;
         opacity: .7;
      }
 
@@ -469,6 +473,8 @@
      .leveltitle {
         margin-left: 60px;
         margin-top: 10px;
+        color: rgba(255, 255, 255, 0.938);
+        text-shadow: 1px 1px 3px rgb(0, 0, 0);
         display: inline-block;
         font-family: "Bebas";
         font-size: 35px;
@@ -488,6 +494,7 @@
      .leveltext {
         font-family: "Bebas";
         display: inline-block;
+        color: #ffffff;
         font-size: 20px;
         margin-left: -600px;
         margin-bottom: 20px;
@@ -495,7 +502,7 @@
      }
 
      .secondbackgroundclub {
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 2300px;
         margin-left: 500px;
@@ -506,7 +513,7 @@
 
     .demo {
         width: 100%;
-        background-color: #864c2573;
+        background-image: linear-gradient(to bottom right, rgba(187, 155, 95, 0.9), rgba(128, 99, 74, 0.9));
         box-shadow: 0 0 5px 5px #332c2827;
     }
 
@@ -564,7 +571,7 @@
     }
 
     .secondbackgroundsunless {
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 2100px;
         margin-top: 0px;
@@ -581,10 +588,10 @@
 
     .collapsible {
         background-color: #5a4435;
-        font-family: "Mont2";
+        font-family: "bebas";
         color: #ffffff;
         cursor: pointer;
-        padding: 18px;
+        padding: 11px;
         width: 90%;
         display: block;
         margin-left: auto;
@@ -593,6 +600,10 @@
         text-align: left;
         outline: none;
         font-size: 15px;
+    }
+
+    .collapsiblefont {
+        font-size: 20px; 
     }
 
     .collapsible:hover {
@@ -613,7 +624,8 @@
 
     .content {
         padding: 0 18px;
-        font-family: "Mont2";
+        color: rgb(0, 0, 0);
+        font-family: "bebas";
         font-size: 19px;
         max-height: 0;
         width: 90%;
@@ -622,7 +634,7 @@
         margin-right: auto;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
-        background-color: #bba285;
+        background-color: #a38869;
     }
 
     /*TEETH WHITENING PAGE*/
@@ -647,24 +659,26 @@
     }
 
     .secondbackgroundteeth {
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 1800px;
         margin-top: 0px;
         margin-left: 500px;
         margin-right: 500px;
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
  
      }
 
     /*SUNBED PAGE*/
 
     .secondbackgroundsunbed {
-        background-image: linear-gradient(to bottom, rgb(247, 218, 186), rgb(173, 155, 122));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
         height: 1200px;
         margin-top: 0px;
         margin-left: 500px;
         margin-right: 500px;
+        box-shadow: 0 0 15px 15px rgba(121, 82, 59, 0.39) inset;
  
      }
 
@@ -726,17 +740,22 @@
         display: block;
         width: 20%;
         float: left;
+        
     }
 
+
     .bed h2{
+        font-size: 32px;
+        color: white;
         text-align: center;
-        font-family: "Mont2";
+        font-family: "Bebas";
     }
 
     .bed p{
         text-align: center;
         font-family: "Bebas";
         font-size: 21px;
+        color: white;
     }
 
 
@@ -745,8 +764,8 @@
     }
 
     .sunbedsecond {
-        background-image: linear-gradient(to bottom, rgb(233, 190, 141), rgb(187, 164, 130));
-        box-shadow: 2px 20px 20px rgb(187, 164, 130);
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
+        box-shadow: 2px 20px 20px rgb(238, 174, 122, 0.9);
     }
 
     /*ABOUT US PAGE*/
@@ -767,9 +786,9 @@
     }
 
     .secondbackgroundabout{
-        background-image: linear-gradient(to bottom right, rgb(247, 218, 186), rgb(243, 189, 108));
+        background-image: linear-gradient(to bottom right, rgb(236, 179, 74, 0.9), rgb(238, 174, 122, 0.9));
         border-radius: 0px 0px 45px 45px;
-        height: 1100px;
+        height: 1200px;
         margin-left: 500px;
         margin-right: 500px;
  
